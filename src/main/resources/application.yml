@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://desperadoccy.club:3306/SQLI
+    username: SQLI
+    password: sqli
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+
+server:
+  port: 39002
